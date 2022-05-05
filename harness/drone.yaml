@@ -1,3 +1,5 @@
+fullnameOverride: drone-demo
+
 service:
   type: LoadBalancer
   loadBalancerIP: 34.148.171.160
