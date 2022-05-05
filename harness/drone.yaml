@@ -1,0 +1,11 @@
+service:
+  type: LoadBalancer
+  loadBalancerIP: 34.148.171.160
+
+extraSecretNamesForEnvFrom:
+  - drone-rpc-secret
+  - drone-github-client-secret
+
+env:
+  DRONE_SERVER_HOST: 34.148.171.160
+  DRONE_GITHUB_CLIENT_ID: 84927be8bbb89a109125
